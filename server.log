@@ -1,0 +1,125 @@
+2025-12-24 08:24:33,740 - __main__ - INFO - Starting Wazuh Rules API Server
+2025-12-24 08:24:33,741 - models - INFO - Database connection established: /opt/wazuh-api/deployments.db
+2025-12-24 08:24:33,741 - models - INFO - Database initialized successfully
+2025-12-24 08:24:33,741 - models - INFO - Database file created at: /opt/wazuh-api/deployments.db
+2025-12-24 08:24:33,741 - __main__ - INFO - Database initialized successfully
+2025-12-24 08:24:44,931 - __main__ - INFO - GET / Status: 200 Duration: 0.30ms
+2025-12-24 08:24:45,458 - __main__ - INFO - GET /favicon.ico Status: 404 Duration: 0.69ms
+2025-12-24 08:25:11,878 - __main__ - INFO - Shutting down Wazuh Rules API Server
+2025-12-24 08:25:14,617 - __main__ - INFO - Starting Wazuh Rules API Server
+2025-12-24 08:25:14,618 - models - INFO - Database connection established: /opt/wazuh-api/deployments.db
+2025-12-24 08:25:14,618 - models - INFO - Database initialized successfully
+2025-12-24 08:25:14,618 - models - INFO - Database file created at: /opt/wazuh-api/deployments.db
+2025-12-24 08:25:14,618 - __main__ - INFO - Database initialized successfully
+2025-12-24 08:25:35,979 - models - INFO - Database connection established: /opt/wazuh-api/deployments.db
+2025-12-24 08:25:35,980 - __main__ - INFO - GET /health Status: 200 Duration: 1.12ms
+2025-12-24 08:25:48,713 - __main__ - INFO - GET / Status: 200 Duration: 0.40ms
+2025-12-24 08:25:59,951 - __main__ - INFO - GET /rules Status: 200 Duration: 0.49ms
+2026-01-01 11:29:30,774 - app - INFO - Starting Wazuh Rules API Server
+2026-01-01 11:29:30,775 - models - INFO - Database connection established: /opt/wazuh-api/deployments.db
+2026-01-01 11:29:30,775 - models - INFO - Database initialized successfully
+2026-01-01 11:29:30,775 - models - INFO - Database file created at: /opt/wazuh-api/deployments.db
+2026-01-01 11:29:30,775 - app - INFO - Database initialized successfully
+2026-01-01 13:22:58,558 - models - INFO - Database connection established: /opt/wazuh-api/deployments.db
+2026-01-01 13:22:58,560 - app - INFO - GET /health Status: 200 Duration: 4.98ms
+2026-01-01 13:23:12,515 - models - INFO - Database connection established: /opt/wazuh-api/deployments.db
+2026-01-01 13:23:12,516 - app - INFO - GET /health Status: 200 Duration: 1.07ms
+2026-01-01 13:23:25,881 - app - INFO - GET /api/rules/list Status: 404 Duration: 0.33ms
+2026-01-01 13:23:39,301 - app - INFO - GET /api/rules/package Status: 404 Duration: 0.26ms
+2026-01-01 13:24:03,785 - models - INFO - Database connection established: /opt/wazuh-api/deployments.db
+2026-01-01 13:24:03,786 - app - INFO - GET /health Status: 200 Duration: 0.87ms
+2026-01-01 13:24:03,856 - app - INFO - GET /api/rules/list Status: 404 Duration: 0.28ms
+2026-01-01 13:24:03,880 - app - INFO - GET /api/rules/package Status: 404 Duration: 0.22ms
+2026-01-01 13:24:43,441 - app - INFO - Shutting down Wazuh Rules API Server
+2026-01-01 13:24:43,885 - app - INFO - Starting Wazuh Rules API Server
+2026-01-01 13:24:43,886 - models - INFO - Database connection established: /opt/wazuh-api/deployments.db
+2026-01-01 13:24:43,887 - models - INFO - Database initialized successfully
+2026-01-01 13:24:43,887 - models - INFO - Database file created at: /opt/wazuh-api/deployments.db
+2026-01-01 13:24:43,887 - app - INFO - Database initialized successfully
+2026-01-01 13:27:00,220 - app - INFO - Shutting down Wazuh Rules API Server
+2026-01-01 13:27:00,723 - app - INFO - Starting Wazuh Rules API Server
+2026-01-01 13:27:00,723 - models - INFO - Database connection established: /opt/wazuh-api/deployments.db
+2026-01-01 13:27:00,724 - models - INFO - Database initialized successfully
+2026-01-01 13:27:00,724 - models - INFO - Database file created at: /opt/wazuh-api/deployments.db
+2026-01-01 13:27:00,724 - app - INFO - Database initialized successfully
+2026-01-01 13:27:13,823 - app - INFO - Shutting down Wazuh Rules API Server
+2026-01-01 13:27:14,267 - app - INFO - Starting Wazuh Rules API Server
+2026-01-01 13:27:14,267 - models - INFO - Database connection established: /opt/wazuh-api/deployments.db
+2026-01-01 13:27:14,268 - models - INFO - Database initialized successfully
+2026-01-01 13:27:14,268 - models - INFO - Database file created at: /opt/wazuh-api/deployments.db
+2026-01-01 13:27:14,268 - app - INFO - Database initialized successfully
+2026-01-01 13:27:24,749 - app - INFO - Shutting down Wazuh Rules API Server
+2026-01-01 13:27:25,295 - app - INFO - Starting Wazuh Rules API Server
+2026-01-01 13:27:25,296 - models - INFO - Database connection established: /opt/wazuh-api/deployments.db
+2026-01-01 13:27:25,296 - models - INFO - Database initialized successfully
+2026-01-01 13:27:25,297 - models - INFO - Database file created at: /opt/wazuh-api/deployments.db
+2026-01-01 13:27:25,297 - app - INFO - Database initialized successfully
+2026-01-01 13:27:31,378 - app - INFO - Shutting down Wazuh Rules API Server
+2026-01-01 13:27:31,842 - app - INFO - Starting Wazuh Rules API Server
+2026-01-01 13:27:31,843 - models - INFO - Database connection established: /opt/wazuh-api/deployments.db
+2026-01-01 13:27:31,844 - models - INFO - Database initialized successfully
+2026-01-01 13:27:31,844 - models - INFO - Database file created at: /opt/wazuh-api/deployments.db
+2026-01-01 13:27:31,844 - app - INFO - Database initialized successfully
+2026-01-01 13:28:36,341 - app - INFO - Shutting down Wazuh Rules API Server
+2026-01-01 13:28:36,827 - app - INFO - Starting Wazuh Rules API Server
+2026-01-01 13:28:36,828 - models - INFO - Database connection established: /opt/wazuh-api/deployments.db
+2026-01-01 13:28:36,828 - models - INFO - Database initialized successfully
+2026-01-01 13:28:36,829 - models - INFO - Database file created at: /opt/wazuh-api/deployments.db
+2026-01-01 13:28:36,829 - app - INFO - Database initialized successfully
+2026-01-01 13:30:34,135 - app - INFO - Shutting down Wazuh Rules API Server
+2026-01-01 13:30:34,606 - app - INFO - Starting Wazuh Rules API Server
+2026-01-01 13:30:34,607 - models - INFO - Database connection established: /opt/wazuh-api/deployments.db
+2026-01-01 13:30:34,608 - models - INFO - Database initialized successfully
+2026-01-01 13:30:34,608 - models - INFO - Database file created at: /opt/wazuh-api/deployments.db
+2026-01-01 13:30:34,608 - app - INFO - Database initialized successfully
+2026-01-01 13:30:41,263 - app - INFO - Shutting down Wazuh Rules API Server
+2026-01-01 13:30:41,689 - app - INFO - Starting Wazuh Rules API Server
+2026-01-01 13:30:41,689 - models - INFO - Database connection established: /opt/wazuh-api/deployments.db
+2026-01-01 13:30:41,690 - models - INFO - Database initialized successfully
+2026-01-01 13:30:41,690 - models - INFO - Database file created at: /opt/wazuh-api/deployments.db
+2026-01-01 13:30:41,690 - app - INFO - Database initialized successfully
+2026-01-01 13:30:58,724 - app - INFO - Shutting down Wazuh Rules API Server
+2026-01-01 13:30:59,170 - app - INFO - Starting Wazuh Rules API Server
+2026-01-01 13:30:59,170 - models - INFO - Database connection established: /opt/wazuh-api/deployments.db
+2026-01-01 13:30:59,171 - models - INFO - Database initialized successfully
+2026-01-01 13:30:59,171 - models - INFO - Database file created at: /opt/wazuh-api/deployments.db
+2026-01-01 13:30:59,171 - app - INFO - Database initialized successfully
+2026-01-01 13:31:26,776 - app - INFO - Shutting down Wazuh Rules API Server
+2026-01-01 13:31:27,202 - app - INFO - Starting Wazuh Rules API Server
+2026-01-01 13:31:27,202 - models - INFO - Database connection established: /opt/wazuh-api/deployments.db
+2026-01-01 13:31:27,203 - models - INFO - Database initialized successfully
+2026-01-01 13:31:27,203 - models - INFO - Database file created at: /opt/wazuh-api/deployments.db
+2026-01-01 13:31:27,204 - app - INFO - Database initialized successfully
+2026-01-01 13:32:04,728 - app - INFO - Shutting down Wazuh Rules API Server
+2026-01-01 13:32:05,168 - app - INFO - Starting Wazuh Rules API Server
+2026-01-01 13:32:05,169 - models - INFO - Database connection established: /opt/wazuh-api/deployments.db
+2026-01-01 13:32:05,170 - models - INFO - Database initialized successfully
+2026-01-01 13:32:05,170 - models - INFO - Database file created at: /opt/wazuh-api/deployments.db
+2026-01-01 13:32:05,170 - app - INFO - Database initialized successfully
+2026-01-01 13:32:51,759 - app - INFO - Shutting down Wazuh Rules API Server
+2026-01-01 13:32:52,315 - app - INFO - Starting Wazuh Rules API Server
+2026-01-01 13:32:52,316 - models - INFO - Database connection established: /opt/wazuh-api/deployments.db
+2026-01-01 13:32:52,316 - models - INFO - Database initialized successfully
+2026-01-01 13:32:52,316 - models - INFO - Database file created at: /opt/wazuh-api/deployments.db
+2026-01-01 13:32:52,317 - app - INFO - Database initialized successfully
+2026-01-01 13:37:00,992 - app - INFO - Shutting down Wazuh Rules API Server
+2026-01-01 13:37:01,418 - app - INFO - Starting Wazuh Rules API Server
+2026-01-01 13:37:01,418 - models - INFO - Database connection established: /opt/wazuh-api/deployments.db
+2026-01-01 13:37:01,419 - models - INFO - Database initialized successfully
+2026-01-01 13:37:01,419 - models - INFO - Database file created at: /opt/wazuh-api/deployments.db
+2026-01-01 13:37:01,419 - app - INFO - Database initialized successfully
+2026-01-01 13:37:16,536 - app - INFO - Shutting down Wazuh Rules API Server
+2026-01-01 13:37:17,000 - app - INFO - Starting Wazuh Rules API Server
+2026-01-01 13:37:17,000 - models - INFO - Database connection established: /opt/wazuh-api/deployments.db
+2026-01-01 13:37:17,001 - models - INFO - Database initialized successfully
+2026-01-01 13:37:17,001 - models - INFO - Database file created at: /opt/wazuh-api/deployments.db
+2026-01-01 13:37:17,001 - app - INFO - Database initialized successfully
+2026-01-01 13:37:27,200 - app - INFO - Shutting down Wazuh Rules API Server
+2026-01-01 13:37:27,651 - app - INFO - Starting Wazuh Rules API Server
+2026-01-01 13:37:27,652 - models - INFO - Database connection established: /opt/wazuh-api/deployments.db
+2026-01-01 13:37:27,652 - models - INFO - Database initialized successfully
+2026-01-01 13:37:27,652 - models - INFO - Database file created at: /opt/wazuh-api/deployments.db
+2026-01-01 13:37:27,653 - app - INFO - Database initialized successfully
+2026-01-01 13:38:08,403 - app - INFO - Shutting down Wazuh Rules API Server
+2026-01-01 13:38:08,844 - app - INFO - Starting Wazuh Rules API Server
+2026-01-01 13:38:23,974 - app - INFO - Shutting down Wazuh Rules API Server
