@@ -1,0 +1,45 @@
+services:
+  wazuh-api:
+    build: .
+    image: wazuh-api-server:latest
+    container_name: wazuh-api
+    restart: unless-stopped
+    ports:
+      - "8002:8000"  # Using port 8001 on host
+    environment:
+      # Git configuration
+      - GIT_REPO_URL=https://github.com/Abhishek-s-kumar/prox-wazuh-ci.git
+      - GIT_BRANCH=main
+      
+      # Security - CHANGE THIS in production!
+      - SECRET_KEY=change-this-to-a-secure-random-key
+      
+      # Server configuration
+      - ENVIRONMENT=production
+      - WORKERS=2
+      - LOG_LEVEL=INFO
+      
+      # Database configuration
+      - DATABASE_PATH=/data/deployments.db
+      - LOG_PATH=/logs/wazuh-api.log
+    volumes:
+      - wazuh_data:/data
+      - wazuh_logs:/logs
+      - wazuh_git_repo:/git-repo
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s  # Give it more time to start
+    networks:
+      - wazuh-network
+
+volumes:
+  wazuh_data:
+  wazuh_logs:
+  wazuh_git_repo:
+
+networks:
+  wazuh-network:
+    driver: bridge

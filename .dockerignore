@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.env
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Database and logs
+deployments.db
+*.log
+server.log
+
+# Backups and temp
+backup/
+tmp/
+temp/
+
+# Docker
+docker-compose.override.yml
+
+# Local scripts (we'll use Docker versions)
+test_*.sh
+start_server.sh

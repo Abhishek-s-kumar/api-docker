@@ -1,0 +1,11 @@
+<decoder name="custom-apache">
+  <program_name>^apache</program_name>
+</decoder>
+
+<decoder name="custom-apache-access">
+  <parent>custom-apache</parent>
+  <type>web-log</type>
+  <prematch>^\d+\.\d+\.\d+\.\d+</prematch>
+  <regex>^(\d+\.\d+\.\d+\.\d+) \S+ \S+ \[([^\]]+)\] "(\w+) ([^"]+) HTTP/\d\.\d" (\d+) (\d+)</regex>
+  <order>srcip, url, id, extra_data, bytes, status</order>
+</decoder>

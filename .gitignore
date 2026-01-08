@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Docker
+*.log
+data/
+logs/
+backups/
+ssl/
+.git-repo/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# SQLite databases
+*.db
+*.db-journal
+
+# Python packaging
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Keep empty directories
+!.gitkeep
+
+# Docker override (local configs)
+docker-compose.override.yml
